@@ -1,0 +1,37 @@
+.container {
+    padding: 3rem;
+    background-color: red;
+    display: flex;
+    height: 500px;
+}
+.item {
+    background-color: wheat;
+    flex-shrink: 1;
+    margin: 10px;
+}
+.item1 {
+    flex-basis: 150px;
+    height: 150px;
+}
+.item2 {
+    background-color: aqua;
+    /* flex-shrink: 2; */
+    /* order: 3; */
+    min-height: 250px;
+    /* align-self: auto; */
+    /* align-self: stretch; */
+    /* align-self: center; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    flex: 1 2 150px;
+}
+.item3 {
+    background-color: blue;
+    /* flex-shrink: 0; */
+    /* order: 1; */
+    /* flex-grow: 3; */
+    height: 350px;
+}
+.item4 {
+    background-color: black;
+}
